@@ -9,9 +9,9 @@
 
 
 #ESTRUTURA
-| `01_setup_ambiente.sql` | **Cenário:** Criação do ambiente do cliente (Simulação de E-commerce) com dados para teste. |
-| `02_diagnostico_health.sql` | **Monitoramento:** Queries que um consultor rodaria para verificar o tamanho das tabelas e conexões ativas.|
-| `03_manutencao_preventiva.sql` | **Prevenção:** Scripts essenciais de limpeza (`VACUUM`) e indexação para garantir performance. |
+| `01_setup_ambiente.sql`  **Cenário:** Criação do ambiente do cliente (Simulação de E-commerce) com dados para teste. |
+| `02_diagnostico_health.sql`  **Monitoramento:** Queries que um consultor rodaria para verificar o tamanho das tabelas e conexões ativas.|
+| `03_manutencao_preventiva.sql`  **Prevenção:** Scripts essenciais de limpeza (`VACUUM`) e indexação para garantir performance. |
 
 
 
@@ -28,4 +28,5 @@ Em um ambiente PostgreSQL (Local ou Linux):
 1.  Execute o `01_setup_ambiente.sql` para gerar a massa de dados.
 2.  Use o `02_diagnostico_health.sql` para extrair métricas do ambiente.
 3.  Aplique o `03_manutencao_preventiva.sql` como sugestão de melhoria.
+
 
